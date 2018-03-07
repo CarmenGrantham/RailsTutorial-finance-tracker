@@ -15,6 +15,7 @@ gem 'devise-bootstrap-views'
 gem 'stock_quote'
 gem 'font-awesome-rails'
 
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
